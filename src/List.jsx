@@ -8,9 +8,9 @@ const List = (props) => {
         setLine(true);
     };
     const deleteItems = (id) => {
-        props.setNewItem(props.newItem.filter((ele) =>{
-            if (ele!==id){
-                return ele
+        props.setNewItem(props.newItem.filter((ele,num) =>{
+            if (num!==id){
+                return num
             }
         }))
     }

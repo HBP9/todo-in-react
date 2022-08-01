@@ -24,7 +24,7 @@ const ToDoList = () => {
                     <Button className="newBtn" onClick={listOfItems}> <AddIcon /> </Button>
                     <br />
                     <ol>
-                        {newItem.map((val,index) => {return <List key={index} id={val} text={val} setNewItem={setNewItem} newItem={newItem} />})}
+                        {newItem.map((val,index) => {return <List key={index} id={index} text={val} setNewItem={setNewItem} newItem={newItem} />})}
                     </ol>
                     <br />
                 </div>
