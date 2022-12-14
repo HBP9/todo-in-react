@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.laudu{}
+
 .main {
     height : 100vh;
     width: 100%;
